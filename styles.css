@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0c0922;
+    --purple: #5f00a1;
+    --green: #004720;
+    --blue-shade: #1b1b7e;
+    --white: #ffffff;
+}
+
