@@ -14,3 +14,30 @@
     --white: #ffffff;
 }
 
+body {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero {
+    background-color: var(--white);
+    color: var(--blue);
+    width: 450px;
+    height: 128px;
+    border-radius: 20px;
+    align-content: center;
+}
+
+
+
+
