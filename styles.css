@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root {
@@ -26,7 +27,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 28px;
+}
+
+.title {
+    font-size: 1.25rem;
 }
 
 .hero {
@@ -38,6 +43,12 @@ main {
     align-content: center;
 }
 
-
+.hint {
+    background-color: var(--green);
+    color: var(--white);
+    width: 450px;
+    height: 128px;
+    border-radius: 20px;
+}
 
 
